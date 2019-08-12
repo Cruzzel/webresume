@@ -5,6 +5,7 @@ body {
 }
 
 ul, li {
+    list-style-type: none;
     displai: block;
     padding: 0;
     margin: 0;

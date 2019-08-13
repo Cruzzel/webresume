@@ -90,7 +90,7 @@ ul, li {
     font-family: 'Open Sans Semibold';
     font-size: 20px;
 }
-/*слуги*/
+/*Услуги*/
 .services {
     padding-top: 120px;
     padding-bottom: 125px;
@@ -100,8 +100,9 @@ ul, li {
 }
 .our_card {
     background: white;
-    padding: 50px 25px 40px;
+    padding: 50px 40px 40px;
     transition: 0.3s;
+    margin-bottom: 30px;
 }
 .our_card:hover {
     background: #00897b;
@@ -128,6 +129,9 @@ ul, li {
     background: transparent;
     padding: 14px 12px 14px;
     font-family: 'Open Sans Semibold';
+}
+.button-services:hover {
+    cursor: pointer;
 }
 .about_text_card{
     color: #212121

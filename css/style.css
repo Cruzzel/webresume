@@ -1,8 +1,7 @@
 @import 'fonts.css';
 
 body {
-    font-family: 'Open Sans Semibold';
-    background-color: #959595;
+    font-family: 'Open Sans';
 }
 
 ul, li {
@@ -23,6 +22,7 @@ ul, li {
 }
 
 .menu_item a {
+    font-family: 'Open Sans Semibold';
     font-size: 20px;
     color: #212121;
 }
@@ -68,7 +68,24 @@ ul, li {
 }
 /*О нас*/
 .about {
+    padding-top: 120px;
+    padding-bottom: 125px;
     color: black;
     background: white;
     text-align: center;
+}
+.about_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about_text {
+    color: #212121
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+.about_h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
 }

@@ -65,6 +65,7 @@ ul, li {
 .button_full:hover {
     border: 2px dotted white;
     background: #045d54;
+    cursor: pointer;
 }
 /*О нас*/
 .about {
@@ -88,4 +89,20 @@ ul, li {
     margin-bottom: 20px;
     font-family: 'Open Sans Semibold';
     font-size: 20px;
+}
+/*слуги*/
+.services {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+}
+.our_card {
+    background: white;
+    padding: 50px 20px 40px;
+}
+.icon {
+    font-style: 60px;
+    color: black;
 }

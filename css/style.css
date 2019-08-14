@@ -235,8 +235,8 @@ div[filter]:hover .text {
 }
 /*Команда*/
 .team {
-    padding-top: 165px;
-    padding-bottom: 125px;
+    padding-top: 125px;
+    padding-bottom: 85px;
     color: black;
     background: #fff;
     text-align: center;
@@ -273,10 +273,10 @@ div[filter]:hover .text {
     max-width: 340px;
 }
 .multiple-items {
-    margin-top: 125px;
+    margin-top: 85px;
 }
 .dots-style {
-    margin-top: 115px;
+    margin-top: 85px;
     display: flex;
     justify-content: center;
 }

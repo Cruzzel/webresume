@@ -1,3 +1,5 @@
+/*Portfolio*/
+
 $(document).ready(function() {
     $('.button[filter]').click(function(){
        if($(this).attr('filter')=='all') {
@@ -19,4 +21,17 @@ $(document).ready(function() {
            $('.filter > div[filter='+filter+']').show(300);
        }
     })
+});
+
+/*Slider*/
+
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrow: false,
+  dots: true,
+  dotsClass: 'dots-style',
+  prevArrow: false,
+  nextArrow: false
 });

@@ -344,4 +344,5 @@ div[filter]:hover .text {
     background: #00897b;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }

@@ -145,6 +145,7 @@ ul, li {
     border: 2px solid #00897b;
 }
 .portfolio img {
+    max-width: 100%;
     margin-bottom: 30px;
 }
 .filter {
@@ -178,6 +179,7 @@ div[filter]:hover .text {
 .price {
     transition: 0.3s;
     background: #fff;
+    margin-bottom: 20px;
 }
 .price:hover {
     box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.39);
@@ -386,6 +388,8 @@ div[filter]:hover .text {
     width: 100%;
     border-radius: 10px;
     border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .footer input:focus, .footer textarea:focus {
     outline: none;
@@ -404,7 +408,6 @@ div[filter]:hover .text {
     border-radius: 10px;
     outline: none;
     cursor: pointer;
-    width: 190%;
     transition: 0.3s;
 }
 .footer button:hover {
@@ -416,4 +419,41 @@ div[filter]:hover .text {
 }
 .form {
     margin-top: 70px;
+}
+#toTop {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #00897b;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+    color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+    .logo-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-icon {
+        display: block;
+        background: #00897b;
+        border: none;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
 }
